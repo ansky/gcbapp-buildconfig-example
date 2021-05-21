@@ -9,3 +9,5 @@ artifacts:
   objects:
     location: 'gs://$PROJECT_ID/'
     paths: ['hello']
+options:
+    requestedVerifyOption: 'VERIFIED'
